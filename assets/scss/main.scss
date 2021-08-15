@@ -1,0 +1,43 @@
+@import '~bulma/sass/utilities/_all';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+  letter-spacing: -0.035em;
+}
+
+.name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+
+  color: #828282;
+}
+
+img {
+  border-radius: 8px;
+}
+
+$input-focus-color: red;
+$input-focus-border-color: #3c393f;
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
